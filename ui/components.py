@@ -113,9 +113,12 @@ def inject_custom_css():
         font-family: 'Inter', sans-serif !important;
     }
 
+    .stApp, .stApp p, .stApp span, .stApp div, .stApp li, .stApp label {
+        color: #0F172A;
+    }
+
     .stApp {
         background-color: #FFFFFF;
-        color: #0F172A;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -149,8 +152,8 @@ def inject_custom_css():
     
     /* Code blocks */
     code {
-        color: #D97706 !important;
-        background: #FEF3C7 !important;
+        color: #1E293B !important;
+        background: #F1F5F9 !important;
         padding: 2px 4px !important;
         border-radius: 4px !important;
     }
