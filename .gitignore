@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Lightning
+lightning_logs/
+
+# Mac OS
+.DS_Store
+
+# Streamlit
+.streamlit/
+!/.streamlit/config.toml
+
+# Virtual environments
+venv/
+env/
+.env/
